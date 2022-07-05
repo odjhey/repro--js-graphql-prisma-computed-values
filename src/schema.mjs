@@ -16,7 +16,7 @@ const typeDefinitions = /* GraphQL */ `
 const resolvers = {
   Query: {
     hello: () => "Hello World!",
-    issues: () => [], // RESUME HERE! <--- connect to prisma
+    issues: (_, __, context, _info) => context.prisma.issue.findMany(),
   },
 };
 
