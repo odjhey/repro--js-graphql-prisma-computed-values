@@ -5,6 +5,7 @@ const typeDefinitions = /* GraphQL */ `
     id: String!
     title: String!
     description: String
+    type: String!
   }
 
   type Query {

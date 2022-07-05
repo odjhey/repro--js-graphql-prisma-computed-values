@@ -15,4 +15,5 @@ model Issue {
   createdAt   DateTime @default(now())
   title       String
   description String
+  type        String
 }
