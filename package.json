@@ -1,0 +1,16 @@
+{
+  "name": "repro--graphql-prisma-computed-values",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Odee <odjhey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.5.0",
+    "@graphql-yoga/node": "^2.11.2",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.0.0",
+    "prisma": "^4.0.0"
+  }
+}
